@@ -1,0 +1,113 @@
+.cs-button{
+    font-family: $font-brand-primary;
+	cursor: pointer;
+    padding: 1.5rem 2.8rem;
+	font-size: 1.6rem;
+    line-height: 1em;
+	position: relative;
+    text-transform: uppercase;
+    font-style: italic;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+    gap: 0.8rem;
+	outline: none;
+	font-weight: 700;
+    text-decoration: none;
+	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, border 0.3s;
+
+	span{
+		display: block;
+		width: 100%;
+        font-size: inherit;
+        line-height: inherit;
+	}
+
+    svg{
+        min-width: 1.6rem;
+    }
+
+	path{
+		transition: stroke 0.3s;
+	}
+
+	&--red-white{
+		color: $color-white;
+		background-color: $color-main;
+		border: 2px solid transparent;
+
+		&:hover{
+			background-color: $color-main-v2;
+            border: 2px solid $color-main-v2;
+            box-shadow: 0px 0px 48px 0px #F3103980;
+		}
+	}
+
+    &--transparent-white{
+		color: $color-white;
+		background-color: transparent;
+		border: 2px solid $color-main-v2;
+
+		&:hover{
+			background-color: $color-main-v2;
+            box-shadow: 0px 0px 48px 0px #F3103980;
+		}
+	}
+
+    &--transparent-black{
+		color: $color-black;
+		background-color: transparent;
+		border: 2px solid $color-main-v2;
+
+		&:hover{
+			color: $color-white;
+			background-color: $color-main-v2;
+            box-shadow: 0px 0px 48px 0px #F3103980;
+		}
+	}
+
+    &--white-black{
+		color: $color-black;
+		background-color: $color-white;
+
+		&:hover{
+			color: $color-white;
+			background-color: $color-black;
+
+			path{
+				stroke: $color-white;
+			}
+		}
+	}
+
+    @media(max-width: $sm){
+		width: 100%;
+
+		svg{
+			min-width: 1.4rem;
+		}
+	}
+}
+
+.red-text-button{
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.6rem;
+	line-height: 1em;
+	color: $color-main;
+	text-transform: uppercase;
+	border: none;
+	background: none;
+	position: relative;
+	padding-right: 2.4rem;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.8rem;
+
+	&::after{
+		content: url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="%23F20731" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+		width: 1.6rem;
+		height: 1.6rem;
+	}
+}

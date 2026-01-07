@@ -1,0 +1,53 @@
+.section_7{
+    h2{
+        text-align: center;
+        margin-bottom: 4.8rem;
+    }
+
+    &__red-text-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-7-swiper{
+        margin-bottom: 4.8rem;
+    }
+
+    &__slider-wrapper{
+        position: relative;
+        padding: 0 4rem;
+    }
+}
+
+.custom-swiper-button-next,
+.custom-swiper-button-prev{
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+
+    &::before{
+        content: '';
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &.swiper-button-disabled{
+        opacity: 0.3;
+    }
+}

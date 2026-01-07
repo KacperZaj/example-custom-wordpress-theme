@@ -1,0 +1,22 @@
+$container-var: 1296px;
+$container-fluid-var: 1920px;
+$container-width: calc($container-var + 6rem);
+$container-fluid-width: calc($container-fluid-var + 6rem);
+
+// Fonts
+$font-brand-primary: 'Inter', sans-serif;
+$font-brand-secondary: 'Bebas Neue Pro', sans-serif;
+
+// Breakpoints
+$sm: 575.98px;
+$md: 767.98px;
+$lg: 991.98px;
+$xl: 1199.98px;
+$xxl: 1399.98px;
+
+// Colors
+$color-black: #131313;
+$color-white: #ffffff;
+$color-main: #F20731;
+$color-main-v2: #F31039;
+$color-main-v3: #F0173E;

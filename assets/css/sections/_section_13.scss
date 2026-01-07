@@ -1,0 +1,36 @@
+.section_13{
+    margin: 6.4rem 0;
+
+    &__image{
+        float: right;
+        max-width: 33%;
+        margin: 0 0 3.2rem 3.2rem;
+    }
+
+    &--reverse{
+        .section_13__image{
+            float: left;
+            margin: 0 3.2rem 3.2rem 0;
+        }
+    }
+
+    &__clear{
+        clear: both;
+    }
+
+    @media(max-width: $md){
+        margin: 3.2rem 0;
+    }
+
+    @media(max-width: $sm){
+        &__image{
+            max-width: 40%;
+            margin: 0  0 1.6rem 1.6rem;
+        }
+        &--reverse{
+            .section_13__image{
+                margin: 0 1.6rem 1.6rem 0;
+            }
+        }
+    }
+}

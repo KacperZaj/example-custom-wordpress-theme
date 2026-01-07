@@ -1,0 +1,21 @@
+.section_8{
+    h2{
+        text-align: center;
+    }
+
+    &__red-text-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text{
+        margin-bottom: 6.4rem;
+    }
+
+    &__slider{
+        .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

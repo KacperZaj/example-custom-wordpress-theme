@@ -1,0 +1,96 @@
+.header_1{
+    padding-top: 14.2rem;
+    overflow: hidden;
+    @include background;
+    
+    &__wrapper{
+        padding-left: calc((100% - $container-var) / 2);
+        padding-right: 9.5%;
+    }
+
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.1rem;
+    }
+
+    &__left{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+        width: calc(43% - 1.1rem);
+    }
+
+    &__right{
+        width: 57%;
+        display: flex;
+        align-items: flex-end;  
+    }
+
+    &__text-field{
+        font-size: 2rem;
+    }
+
+    &__buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+
+    @media(max-width: $xxl){
+        &__wrapper{
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+
+    @media(max-width: $xl){
+        padding-top: 8%;
+
+        &__left{
+            width: 467px;
+        }
+
+        &__right{
+            width: calc(100% - 467px - 1.1rem);
+        }
+    }
+
+    @media(max-width: $lg){
+        &__left{
+            width: 400px;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        &__right{
+            width: calc(100% - 400px - 1.1rem);
+        }
+    }
+
+    @media(max-width: $md){
+        &__left{
+            width: calc(50% - 1.1rem);
+        }
+
+        &__right{
+            width: 50%;
+        }
+        &__wrapper{
+            padding-left: 1.6rem;
+            padding-right: 1.6rem;
+        }
+    }
+
+    @media(max-width: $sm){
+        padding-top: 6rem;
+        &__content{
+            justify-content: center;
+        }
+        &__left{
+            width: 100%;
+        }
+        &__right{
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.single-post{
+    #main{
+        margin-bottom: 6.4rem;
+
+        h2{
+            text-transform: none;
+            font-size: 3.2rem;
+        }
+
+        h3{
+            font-size: 2.8rem;
+        }
+
+        h4{
+            font-size: 2.3rem;
+        }
+
+        h5{
+            font-size: 2.1rem;
+            text-transform: none;
+        }
+
+        h6{
+            font-size: 1.9rem;
+            text-transform: none;
+        }
+
+        .wp-block-image{
+            margin: 6.4rem 0;
+        }
+    }
+
+    @media(max-width: $md){
+        #main{
+            .wp-block-image{
+                margin: 3.2rem 0;
+            }
+        }
+    }
+}

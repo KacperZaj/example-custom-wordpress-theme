@@ -1,0 +1,620 @@
+/* Inter - Black */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Black.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - BlackItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-BlackItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Bold */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Bold.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - BoldItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-BoldItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - ExtraBold */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-ExtraBold.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - ExtraBoldItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-ExtraBoldItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - ExtraLight */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-ExtraLight.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - ExtraLightItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-ExtraLightItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Italic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Italic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Italic.woff') format('woff');
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Light */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Light.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - LightItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-LightItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Medium */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Medium.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - MediumItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-MediumItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Regular */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Regular.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - SemiBold */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-SemiBold.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - SemiBoldItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-SemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Inter - Thin */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-Thin.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Inter - ThinItalic */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter_18pt-ThinItalic.woff2') format('woff2'),
+         url('../fonts/inter/Inter_18pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue Pro Middle';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-MiddleItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-MiddleItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-MiddleItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BoldItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedRegular.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedRegular.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMediumIt.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMediumIt.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBook.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBook.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpThinItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpThinItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThinItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThinItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBookItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBookItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpandedThin.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpandedThin.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpandedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMedium.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMedium.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBook.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBook.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLightItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLightItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpRegular.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpRegular.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Light.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Light.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBoldItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBoldItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-LightItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-LightItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Thin.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Thin.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded XBold';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeueProExpandedExtraBoldIt.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeueProExpandedExtraBoldIt.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeueProExpandedExtraBoldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBold.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBold.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBookItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBookItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ThinItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Book.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Book.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Book';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BookItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BookItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLight.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLight.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThin.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThin.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp XBold';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBold.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBold.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Middle';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Middle.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Middle.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Middle.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Bold.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Bold.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBold.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBold.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Italic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Italic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded XBold';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedExtraBold.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedExtraBold.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLight.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLight.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Regular.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Regular.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp Middle';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddle.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddle.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddle.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp XBold';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBoldItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBoldItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpXBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro Expanded';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLightIt.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLightIt.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-ExpandedLightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp Middle';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddleIt.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddleIt.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpMiddleIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Pro SemiExp';
+    src:
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBoldItalic.woff2') format('woff2'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBoldItalic.woff') format('woff'),
+        url('../fonts/bebas-neue-pro/BebasNeuePro-SemiExpBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

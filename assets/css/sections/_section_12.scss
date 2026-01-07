@@ -1,0 +1,66 @@
+.section_12{
+    padding: 2.3rem 0;
+
+    .section_1{
+        &__col{
+            &--1{
+                padding-top: 6rem;
+            }
+        }
+    }
+
+    .wpforms-container{
+
+        .wpforms-field{
+            padding: 12px 0;
+
+            &.wpforms-field-checkbox{
+                padding-top: 0;
+                padding-bottom: 24px;
+            }
+        }
+
+        input.wpforms-field-medium{
+            max-width: 100%;
+        }
+
+        .wpforms-field-label-inline{
+            font-size: 1.6rem;
+            line-height: 1.5em;
+        }
+    }
+
+    .wpforms-form{
+        li{
+            padding-left: 0;
+
+            &:before{
+                display: none;
+            }
+        }
+    }
+
+    .cs-button{
+        width: 100%;
+    }
+    
+    @media(max-width: $md){
+    .wpforms-container{
+        .wpforms-one-half{
+            width: 100%;
+        }
+        
+        .wpforms-field.wpforms-one-half{
+            margin-left: 0;
+        }
+    }
+
+    .section_1{
+        &__col{
+            &--1{
+                padding-top: 0;
+            }
+        }
+    }
+    }
+}

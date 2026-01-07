@@ -1,0 +1,49 @@
+.section_1{
+    @include custom-list;
+    
+    &__content{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.2rem 6.4rem;
+    }
+
+    &__text-field{
+        margin-bottom: 3.2rem;
+    }
+
+    &--reverse{
+        .section_1__col{
+            &--1{
+                order: 1;
+            }
+        }
+    }
+
+    @media(max-width: $md){
+        &__content{
+            grid-template-columns: 1fr;
+        }
+
+        &__col{
+            &--2{
+                display: flex;  
+                justify-content: center;
+            }
+        }
+
+        &--reverse{
+            .section_1__col{
+                &--1{
+                    order: 0;
+                }
+            }
+        }
+    }
+
+    @media(max-width: $sm){
+        br{
+            display: none;
+        }
+    }
+}

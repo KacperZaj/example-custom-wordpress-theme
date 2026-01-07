@@ -1,0 +1,214 @@
+.footer{
+    ul{
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li{
+        padding-left: 0;
+        &::before{
+            display: none;
+        }
+    }
+
+    h3{
+        color: $color-main;
+        font-size: 2.9rem;
+        line-height: 1.14em;
+        letter-spacing: 0.15px;
+        margin-bottom: 1.1rem;
+        text-transform: uppercase;
+    }
+
+    &__call-form{
+        .wpforms-container .wpforms-field{
+            padding-top: 0;
+            padding-bottom: 0.8rem;
+        }
+    }
+
+    &__cols{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding-bottom: 5.7rem;
+    }
+    
+    &__turned-off-contact{
+        padding-top: 6rem;
+    }
+
+    &__col{
+        a{
+            color: $color-white;
+            text-decoration: none;
+    
+            &:hover{
+                color: $color-main;
+            }
+        }
+
+        &--1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        &--4{
+            input, .cs-button{
+                width: 100%;
+            }
+            
+            .wpforms-container{
+                margin: 0;
+            }
+        }
+    }
+
+    &__col-1-top{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        a{
+            display: inline;
+        }
+    }
+
+    &__social-media{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+    &__link{
+        padding: 0.5rem 0.5rem 0.5rem 0;
+        display: inline-flex;
+        align-items: center;
+        gap: 1.2rem;
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        overflow-wrap: anywhere;
+
+        &--bold{
+            font-weight: 600;
+        }
+    }
+
+    &__logo{
+        margin-bottom: 0.8rem;
+    }
+
+    p.footer__under-logo{
+        font-family: $font-brand-secondary;
+        font-size: 2.2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: italic;
+        color: #FFFFFF80;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        margin-bottom: 2.2rem;
+        font-weight: 600;
+    }
+
+    &__bar{
+        border-top: 1px solid #ffffff1a;
+        padding: 12px 0;
+    }
+
+    &__bar-cols{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 3rem;
+    }
+
+    &__bar-col{
+        p,a{
+            margin: 0;
+            color: #ffffff59;
+            font-size: 1.3rem;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        &--2{
+            display: flex;
+            justify-content: flex-end;
+            gap: 1.6rem;
+
+            a{
+                &:hover{
+                    color: $color-main;
+                }
+            }
+        }
+    }
+
+    .section_1__col--1{
+        .wpforms-container{
+            margin: 0;
+        }
+    }
+
+    @media(max-width: $xl){
+        &__cols{
+            grid-template-columns: 1fr 1.2fr 1.2fr 1fr;
+        }
+    }
+    @media(max-width: $lg){
+        &__cols{
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__col{
+            &--1{
+                grid-area: 1 / 1 / 2 / 3;
+            }
+            &--2{
+                grid-area: 3 / 1 / 4 / 2;
+            }
+            &--3{
+                grid-area: 3 / 2 / 4 / 3;
+            }
+            &--4{
+                grid-area: 2 / 1 / 3 / 3;
+            }
+        }
+    }
+
+    @media(max-width: $sm){
+        &__cols{
+            grid-template-columns: 1fr;
+        }
+
+        &__col{
+            &--1{
+                grid-area: 1 / 1 / 2 / 3;
+            }
+            &--2{
+                grid-area: 2 / 1 / 3 / 3;
+            }
+            &--3{
+                grid-area: 3 / 1 / 4 / 3;
+            }
+            &--4{
+                grid-area: 4 / 1 / 5 / 3;
+            }
+        }
+
+        &__bar-cols{
+            grid-template-columns: 1fr;
+        }
+
+        &__bar-col{
+            &--2{
+                justify-content: flex-start;
+            }
+        }
+    }
+}
