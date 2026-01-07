@@ -12,7 +12,7 @@ maintainable code, and flexibility for content editors.
 ## Key features
 
 - Custom WordPress theme built from scratch
-- Advanced Custom Fields (ACF) usage
+- Advanced Custom Fields (ACF) including Flexible Content and modular sections
 - Flexible and modular template structure
 - SCSS with BEM methodology
 - Responsive layout
@@ -31,6 +31,9 @@ maintainable code, and flexibility for content editors.
 
 The repository contains only theme-related files.
 WordPress core files and client content are intentionally excluded.
+
+Key logic is located in the /inc directory and modular templates
+inside /template-parts.
 
 ## Relation to live projects
 
